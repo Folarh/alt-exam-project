@@ -1,0 +1,42 @@
+.user{
+    flex: 0.3;
+    /* border: 1px solid black; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* margin: 0 20px; */
+    padding: 0 120px;
+    background-color: rgb(18, 18, 34);
+    color: white;
+    
+    
+}
+
+.user__image{
+    border-radius: 50%;
+    /* top:10;
+    left: 5; */
+}
+
+.username{
+    color: grey;
+}
+
+.user__btn{
+width: 100%;
+height: 40px;
+background-color: grey;
+color: white;
+border-radius: 10px;
+font-size: larger;
+}
+
+.loc{
+    display: flex;
+    align-items: center;
+
+}
+
+.line__break{
+    border: 0.1px dotted rgb(161, 159, 159);
+}

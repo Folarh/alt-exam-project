@@ -1,0 +1,52 @@
+.searchbar{
+    margin: o auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-top: 20px;
+    
+}
+
+.input{
+    flex: 0.6;
+    align-items: center;
+    margin: 0 40px;
+    
+}
+
+.input > input{
+    width: 100%;
+    height:40px;
+    border:none;
+    border-radius: 10px;
+}
+
+::placeholder{
+    background-color: white;
+}
+
+.btns{
+    flex: 0.4;
+    display: flex;
+    gap: 10px;
+}
+
+.searchbar__btn{
+    display: flex;
+    height: 40px;
+    width:100px;
+   align-items: center;
+    color:white;
+    background-color: rgb(95, 95, 161);
+    padding: 0 10px;
+    font-weight: 800;
+}
+.special__btn{
+    height: 40px;
+    background-color: rgb(95, 146, 19);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    font-weight: 900;
+}
