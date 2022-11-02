@@ -8,20 +8,6 @@ import WidthNormalIcon from '@mui/icons-material/WidthNormal';
 import ViewInArIcon from '@mui/icons-material/ViewInAr';
 
 export default function Header() {
-  // const [Overview, setOverview]=useState(true)
-  // const [repository, setrepository]=useState(false)
-
-  // const handleOverview = ()=>{
-  //   setrepository(true)
-  //   setOverview(false)
-   
-
-  // }
-
-  // const handleRepo = ()=>{
-  //   setOverview(true)
-  //   setrepository(false)
-  // }
   return (
     <div className='header'>
       <div className='header__overview' >
