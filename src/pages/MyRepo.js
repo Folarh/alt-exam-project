@@ -9,12 +9,13 @@ import { useState } from 'react'
 import Pagination from '../components/Pagination';
 import RepoList from '../components/RepoList';
 import {Helmet} from 'react-helmet-async'
+import User from '../components/User'
 
 
 
 export default function MyRepo() {
   const [currentPage, setCurrentPage]=useState(1)
-  const [postPerPage, setPostPerPage]=useState(3)
+  const [postPerPage, setPostPerPage]=useState(6)
   const [url, setUrl]= useState("https://api.github.com/users/FOLARH/repos")
 
   const prevPage = ()=>{
@@ -52,10 +53,14 @@ const paginate = (pageNumber)=>setCurrentPage(pageNumber);
 
        {error && <div>{error}</div>}
         {loading && <div>loading...</div>}
-
-      <RepoList data={currentPosts} loading={loading} error={error}/>
+        <User/>
+        <div className='info'>
+        <RepoList data={currentPosts} loading={loading} error={error}/>
       <Pagination postPerPage={postPerPage} totalPosts={data.length}
        paginate={paginate} prevPage={prevPage} nextPage={nextPage}/>
+        </div>
+
+     
 
       
     </div>

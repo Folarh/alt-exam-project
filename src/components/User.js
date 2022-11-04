@@ -13,7 +13,6 @@ export default function User() {
   const [url, setUrl]= useState("https://api.github.com/users/FOLARH")
 
   const {data,error,loading}= useFetch(url)
-  console.log(data)
 
   return (
     <div className='user'>

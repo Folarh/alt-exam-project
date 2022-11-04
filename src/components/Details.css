@@ -1,12 +1,13 @@
 .details__page{
-    flex:0.2;
-    margin-right: 30px;
+    margin-left: 20px;
+    color: orange;
 }
 
 .details__icon{
     text-align: center;
     align-items: center;
     display: flex;
+    color: blue;
 }
 
 .details__icon:hover{

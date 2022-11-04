@@ -1,12 +1,10 @@
 import React from "react";
 import "./Overview.css";
-import User from "../components/User"
 
 function Overview() {
   return (
    
     <div className="view-bio">
-         <User/>
       <div className="view-bio-info">
         <p>Folarh/README.md</p>
         <h1>Hello there; welcome</h1>

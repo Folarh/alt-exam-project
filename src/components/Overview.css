@@ -17,9 +17,14 @@
     margin-top: 20px;
   }
   
-  .view-bio .view-button {
+   .view-button {
+    display:flex;
+    justify-content: center;
+    flex-grow: none;
     margin-top: 10px;
     margin-bottom: 20px;
+    flex-wrap: wrap;
+    
   }
   
   .view-bio .view-button button {
@@ -32,28 +37,28 @@
     color: #fff;
   }
   
-  .view-bio .view-button .button-one {
+   .button-one {
     background-color: #6773e5;
   }
   
-  .view-bio .view-button .button-two {
+   .button-two {
     background-color: #007ec6;
   }
   
-  .view-bio .view-button .button-three {
+   .button-three {
     background-color: #1ca0f1;
   }
   
-  .view-bio .summary-info h5 {
+  .summary-info h5 {
     margin-top: 20px;
     font-size: 14px;
   }
   
-  .view-bio .summary-info ul li {
+   .summary-info ul li {
     margin-top: 8px;
   }
   
-  .view-bio .line-two {
+   .line-two {
     margin-top: 40px;
     border: 2px solid rgb(45, 44, 44);
   }

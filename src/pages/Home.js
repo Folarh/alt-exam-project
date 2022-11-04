@@ -1,9 +1,10 @@
 import React from 'react'
 import './Home.css'
-import User from '../components/User'
-import Repository from '../components/Repository'
+// import User from '../components/User'
 import {Helmet} from 'react-helmet-async'
 import Overview from '../components/Overview'
+
+
 
 export default function Home() {
   return (
@@ -17,8 +18,7 @@ export default function Home() {
       </Helmet>
 
       <div className='user__page'>
-       <User/>
-      <Repository />
+       <Overview/>
     </div>
 
     </div>

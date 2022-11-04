@@ -38,12 +38,8 @@ export default function Details() {
         <p>No release published</p>
         <h4 className='green'>CReate a new release</h4>
       </div>
-      <hr/>
-      <div className='packages'>
-        <h1>Packages</h1>
-        <p>No release published</p>
-        <h4 className='blue'>CReate a new package</h4>
-      </div>
+      
+      
     </div>
   )
 }

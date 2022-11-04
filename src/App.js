@@ -6,7 +6,7 @@ import Home from './pages/Home'
 import Error from './pages/Error';
 import ViewRepo from './pages/ViewRepo';
 import Overview from './components/Overview';
-
+import MyRepo from './pages/MyRepo'
 
 
 
@@ -19,7 +19,8 @@ function App() {
       <Routes>
        <Route   path='/' element={<Home/>}/>
        <Route   path='/repos/Folarh/:full_name' element={<ViewRepo/>}/>
-       <Route   path='/overview' element={<Overview/>}></Route>
+       <Route   path='/overview' element={<Overview/>}/>
+       <Route   path='/myrepo' element={<MyRepo/>}/>
        <Route   path='*' element={<Error/>}></Route>
         </Routes>
 </BrowserRouter>

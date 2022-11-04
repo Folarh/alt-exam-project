@@ -1,27 +1,25 @@
-.repo__info{
-    background-color: rgb(18, 18, 34);
-    color: white;
+.more{
+    display: flex;
+    justify-content: space-around;
     
+
 }
+
+
 
 .details__public{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
+    border: 1px solid black;
 }
 
 
 
-.more{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    
-}
+
 
 .more__details{
-    flex: 0.8;
     cursor: pointer;
     color: orange
 }
@@ -30,6 +28,10 @@
     text-align: center;
     margin-bottom: 30px;
     font-weight: bolder;
+}
+
+.data{
+    margin-left: 20px;
 }
 
 

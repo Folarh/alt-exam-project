@@ -1,9 +1,10 @@
 .my__repository{
     color: white;
+    display: flex;
+    justify-content: space-between;
+    border: 2px soliid yellow;
     margin: 0 auto;
-    padding: 0 50px;
     
-    /* margin-right: 50px; */
 }
 
 .my__repository__header{
@@ -43,3 +44,18 @@
     width: 100px;
     
 }
+
+.info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    ;
+}
+
+@media all and (max-width: 6700px){
+    .my__repository{
+      display: flex;
+      flex-direction: row;
+    }
+  }
